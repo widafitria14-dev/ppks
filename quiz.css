@@ -1,0 +1,234 @@
+:root {
+    --maroon5: #7D0A0A;
+    --burgundy: #BF3131;
+    --putin: #F1F1F1;
+    --blacky: #000000;
+    --buabu: #E3E5E8;
+}
+
+@font-face {
+    font-family: PJS;
+    src: url(assets/font/PlusJakartaSans-Regular.ttf)
+}
+
+body {
+    font-family : PJS;
+    }
+
+    .imgquiz {
+        height: 150px;
+        margin-left: 280px;
+        margin-top: -175px;
+    }
+
+    .bgquiz {
+        background-color: var(--maroon5);
+        height: 2425px;
+        margin-top: 177px;
+    }
+
+    .imgquiz2 {
+        background-color: white;
+        height: 2350px;
+        width: 100%;
+        border-radius: 6px 6px 0px 0px;
+        margin-top: 55px;
+    }
+
+    .rect1 {
+        background-color: var(--burgundy);
+        height: 30px;
+        width: 30px;
+        border-radius: 6px;
+        margin-top: 30px;
+        margin-left: 530px;
+    }
+
+    .hrect1 {
+        font-family: Playfair Display;
+        color: white;
+        font-weight: 700;
+    }
+
+    .pquiz {
+        font-family: PJS;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .hquiz {
+        font-family: PJS;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .mgquiz {
+        margin-left: 65px;
+    }
+
+    .btnquiz {
+        background-color: var(--burgundy);
+        font-size: x-small;
+        border-radius: 6px;
+        border-color: white;
+        margin-top: 35px;
+        border-width: 0.5px;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin-left: 90px;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .btnquiz2 {
+        background-color: var(--burgundy);
+        font-size: x-small;
+        border-radius: 6px;
+        border-color: var(--maroon5);
+        margin-top: 35px;
+        border-width: 0.5px;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin-right: 90px;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .btnquiz3 {
+        background-color: var(--burgundy);
+        font-size: x-small;
+        border-radius: 6px;
+        border-color: var(--maroon5);
+        margin-top: 35px;
+        border-width: 0.5px;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin-right: 90px;
+        padding: 5px;
+        padding-left: 30px;
+    }
+
+    .btnquiz4 {
+        background-color: var(--burgundy);
+        font-size: x-small;
+        border-radius: 6px;
+        border-color: white;
+        margin-top: 35px;
+        border-width: 0.5px;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin-left: 90px;
+        padding: 5px;
+        padding-left: 30px;
+    }
+
+    .btnquiz:hover {
+        background-color: var(--maroon5);
+    }
+
+    .btnr:hover{
+        background-color: var(--burgundy);
+    }
+
+    .btnquiz2:hover {
+        background-color: var(--maroon5);
+    }
+
+    .padq {
+        margin-top: 30px;
+    }
+
+    .btns {
+        font-family: PJS;
+        border: none;
+        border-radius: 6px;
+        background-color: var(--maroon5);
+        height: 40px;
+        width: 300px;
+        color: white;
+        font-weight: 600;
+        margin-top: 60px;
+        margin-left: 380px;
+    }
+
+    .btns:hover {
+        background-color: var(--burgundy);
+    }
+
+    .popup {
+        width: 550px;
+        background-color: white;
+        border-radius: 6px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        text-align: center;
+        padding: 0 30px 30px;
+        visibility: hidden;
+        transition: transform 0.4s, top 0.4s;
+    }
+
+    .open-popup {
+        visibility: visible;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .popup img {
+        width: 100px;
+        margin-top: -50px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .hpop {
+        font-family: PJS;
+        font-weight: 700;
+        color: var(--maroon5);
+        margin: 30px 0 10px;
+    }
+
+    .ppop {
+        font-family: PJS;
+        font-weight: 500;
+    }
+
+    .btnpop {
+        width: 70%;
+        padding: 10px 0;
+        background-color: var(--maroon5);
+        border-radius: 6px;
+        color: white;
+        border: none;
+        font-family: PJS;
+        font-weight: 700;
+    }
+
+    .btnpop:hover {
+        background-color: var(--burgundy);
+    }
+
+    @media (max-width: 480px){
+        form .half{
+          flex-direction: column;
+        }
+        form .half .item{
+          width: 100%;
+        }
+        form .action{
+          display: flex;
+          flex-direction: column;
+        }
+        form .action input{
+          margin-bottom: 10px;
+          width: 100%;
+        }
+      }

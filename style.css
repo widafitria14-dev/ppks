@@ -1,0 +1,954 @@
+:root {
+    --maroon5: #7D0A0A;
+    --burgundy: #BF3131;
+    --putin: #F1F1F1;
+    --blacky: #000000;
+    --buabu: #E3E5E8;
+}
+
+@font-face {
+    font-family: PJS;
+    src: url(assets/font/PlusJakartaSans-Regular.ttf)
+}
+
+body {
+    font-family : PJS;
+    }
+
+    /* Navbar */
+    .navscroll {
+        font-weight: bold;
+    }
+
+    .nav-link {
+        color: white;
+    }
+    
+    .nav-link:hover {
+        color: var(--maroon5);
+    }
+
+    .button-primary {
+        font-family: PJS;
+        height: 40px;
+        width: 100px;
+        background-color: white;
+        color: var(--maroon5);
+        border-radius: 5px;
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+    
+    .button-primary:hover {
+        background-color: var(--maroon5);
+        color: white;
+    }
+
+    .navbar {
+    z-index: 3;
+    }
+
+    * {
+    z-index: 2;
+    }
+
+    .navbar {
+        transition: all 0.5s;
+    }
+    .navbar-scrolled{
+        background-color: var(--burgundy);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    /*Hero*/
+    .header {
+        padding-top: 100px;
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 585px;
+    }
+
+    .info {
+        padding-top: 130px;
+    }
+
+    .heroh {
+        font-family: Playfair Display;
+        color: white;
+        font-weight: 700;
+    }
+
+    .herop {
+        font-family : PJS;
+        font-weight: 500;
+        color: white;
+    }
+
+    .button-hero {
+        font-family: PJS;
+        height: 40px;
+        width: 120px;
+        background-color: var(--burgundy);
+        border-radius: 6px;
+        border: none;
+        font-weight: bold;
+        transition: 0.3s;
+        color: white;
+    }
+
+    .button-hero:hover {
+        background-color: var(--putin);
+        color: var(--maroon5);
+    }
+
+    img {
+        max-width: 100%;
+    }
+    
+    .imghero {
+        height: 500px;
+        width: auto;
+        padding-left: 50px;
+        cursor: pointer;
+    }
+
+    /* Panduan */
+    .pcard {
+        height: 170px;
+        width: 300px;
+    }
+
+    .txtdcr {
+        text-decoration: none;
+        
+    }
+
+    .szf {
+        font-size: small;
+    }
+
+    h3 {
+        font-family: Playfair Display;
+        font-weight: 700;
+    }
+
+    .panduanimg {
+        width: 70px;
+    }
+
+    h6 {
+        font-family: PJS;
+        font-weight: 700;
+    }
+
+    .bgpp {
+        background-image: url(assets/Rectangle\ 85.png);
+        height: 250px;
+    }
+
+    .panduanph {
+        padding-top: 70px;
+        padding-right: 50px;
+    }
+
+    .panduanp {
+        font-family: PJS;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .panduanh {
+        font-family: Playfair Display;
+        font-weight: 700;
+        text-align: right;
+    }
+
+    .clrh {
+        color: var(--maroon5);
+    }
+
+    .pbutton2 {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .button-panduan {
+        font-family: PJS;
+        height: 55px;
+        width: 350px;
+        background-color: var(--maroon5);
+        border-radius: 6px;
+        border: none;
+        font-weight: bold;
+        transition: 0.3s;
+        color: white;
+        margin: 7px;
+    }
+
+    .button-panduan:hover {
+        background-color: var(--burgundy);
+    }
+
+    .polybtn {
+        padding-left: 200px;
+    }
+
+    .pbutton {
+        width: 10px;
+    }
+
+    /* Berita */
+
+    .berita {
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 600px;
+    }
+
+    .beritah {
+        font-family: Playfair Display;
+        font-weight: 700;
+        color: white;
+    }
+
+    .pberita {
+        padding-left: 50px;
+    }
+
+    .becard {
+        width: 18rem;
+    }
+
+    .bcard {
+        height: 165px;
+    }
+
+    .b3card {
+        height: 170px;
+    }
+
+    .card-img-top{
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    .cardb {
+        font-family: PJS;
+        color: #989595;
+    }
+
+    .cardh {
+        font-family: Playfair Display;
+        font-weight: 700;
+    }
+
+    /* Pertanyaan */
+    .pertanyaan {
+        padding-top: 140px;
+    }
+
+    .pertanyaanh {
+        font-family: Playfair Display;
+        font-weight: 700;
+    }
+
+    .pertanyaanp {
+        font-family : PJS;
+        font-weight: 500;
+    }
+
+    .button-pertanyaan {
+        font-family: PJS;
+        height: 40px;
+        width: 180px;
+        background-color: var(--maroon5);
+        border-radius: 6px;
+        border: none;
+        font-weight: bold;
+        transition: 0.3s;
+        color: white;
+    }
+    
+    .button-pertanyaan:hover {
+        background-color: var(--burgundy);
+        color: white;
+    }
+
+    .imgpertanyaan {
+        height: 500px;
+        width: auto;
+        cursor: pointer;
+    }
+
+    /* Definisi */
+
+    /* Navbar */
+
+    .navdef {
+        color: var(--maroon5);
+    }
+    
+    .navdef:hover {
+        color: var(--burgundy);
+    }
+
+    .navbar-scroll{
+        background-color: white;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .defnav {
+        color: var(--maroon5);
+    }
+
+    .defnav:hover {
+        color: var(--burgundy);
+    }
+
+    /* Hero Section */
+    .defhero {
+        background-image: url(assets/Rectangle\ 21.png);
+        margin-top: 150px;
+        height: 420px;
+        width: 500px;
+        border-radius: 6px;
+        margin-left: 100px;
+    }
+
+    .definfo {
+        margin: 30px;
+    }
+
+    .imgdef {
+        margin-left: 550px;
+        border-radius: 6px;
+        margin-top: -360px;
+        height: 420px;
+        width: 500px;
+    }
+
+    /* Jenis KS */
+    .jenisks {
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .hks {
+        font-family: Playfair Display;
+        font-weight: bold;
+        color: white;
+        
+    }
+
+    .bgks {
+        background-color: white;
+        height: 150px;
+        width: 100%;
+        border-radius: 6px;
+        padding-top: 20px;
+    }
+    
+    .hjenis {
+        font-family: Playfair Display;
+        font-weight: 700;
+    }
+
+    .pjenis {
+        font-family: PJS;
+        font-size: small;
+        font-weight: 550;
+    }
+
+    .bgks2 {
+        margin-top: 30px;
+        background-color: white;
+        height: 150px;
+        width: 45%;
+        border-radius: 6px;
+        padding-top: 7px;
+        margin-left: 12px
+    }
+
+    .bgks3 {
+        margin-top: 30px;
+        background-color: white;
+        height: 150px;
+        width: 45%;
+        border-radius: 6px;
+        padding-top: 7px;
+        margin-left: 90px;
+    }
+
+    /* Contoh KS */
+    .hcks {
+        font-family: Playfair Display;
+        font-weight: bold;
+    }
+
+    .pictall {
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    .pict {
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 200px;
+        width: 200px;
+        padding: 30px;
+        border-radius: 6px;
+    }
+    .picta {
+        width: 100px;
+    }
+
+    .pict2 {
+        background-image: url(assets/Rectangle\ 80.png);
+        height: 200px;
+        width: 200px;
+        padding: 30px;
+        border-radius: 6px;
+    }
+
+    .p3 {
+        color: white;
+        font-family: PJS;
+    }
+
+    .p6 {
+        font-family: PJS;
+    }
+
+    /* Report */
+    .bgreport {
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 645px;
+    }
+
+    .hreport {
+        font-family: Playfair Display;
+        color: white;
+        font-weight: bold;
+    }
+
+    .preport {
+        color: white;
+        font-family: PJs;
+    }
+
+    .padreport {
+        margin-top: 50%;
+        margin-right: 100px;
+    }
+
+    .frm {
+        padding: 20px;
+        margin-left: 13px;
+    }
+
+    form {
+        background-color: var(--putin);
+        height: 600px;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    .lbl {
+        font-family: PJS;
+        font-weight: 700;
+        margin: 5px 0px;
+    }
+
+    .inpt {
+        width: 95%;
+        font-size: small;
+        border: none;
+        border-radius: 6px;
+        background-color: #D9D9D9;
+        height: 45px;
+        padding: 12px 15px;
+        display: inline-block;
+    }
+
+    .inptt {
+        width: 95%;
+        font-size: small;
+        border: none;
+        border-radius: 6px;
+        background-color: #D9D9D9;
+        height: 225px;
+        padding: 12px 15px;
+        padding-bottom: 180px;
+        display: inline-block;
+        
+    }
+
+    .btnlpr {
+        border: none;
+        background-color: var(--maroon5);
+        color: white;
+        width: 95%;
+        height: 40px;
+        border-radius: 6px;
+        font-family: PJS;
+        font-weight: 700;
+        margin-top: 20px;
+        
+    }
+
+    .btnlpr:hover {
+        background-color: var(--burgundy);
+    }
+
+    /* Penanganan */
+
+    /* Hero Section */
+    .pphero {
+        margin-top: 70px;
+    }
+
+    .hpngn {
+        font-weight: 700;
+        font-family: Playfair Display;
+    }
+
+    .hppngn {
+        font-weight: 600;
+        color: var(--maroon5);
+        font-family: PJS;
+    }
+
+    .bghpngn{
+        background-color: #D9D9D9;
+        height: 200px;
+        width: 45%;
+        border-radius: 6px;
+        padding: 10px;
+        margin-left: 50px
+    }
+
+    .bghpngn2 {
+        background-color: #D9D9D9;
+        height: 200px;
+        width: 45%;
+        border-radius: 6px;
+        padding: 10px;
+        margin-left: 35px;
+    }
+
+    .bghpngn3{
+        background-color: #D9D9D9;
+        height: 200px;
+        width: 45%;
+        border-radius: 6px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .bghpngn4{
+        background-color: #D9D9D9;
+        height: 200px;
+        width: 45%;
+        border-radius: 6px;
+        padding: 10px;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+
+    .imghp {
+        width: 150px;
+        position: absolute;
+        left: 450px;
+        bottom: 220px;
+    }
+
+    .imghp2 {
+        width: 150px;
+        position: absolute;
+        left: 1005px;
+        bottom: 220px;
+    }
+
+    .imghp3 {
+        width: 150px;
+        position: absolute;
+        left: 450px;
+        bottom: -10px;
+    }
+
+    .imghp4 {
+        width: 150px;
+        position: absolute;
+        left: 1005px;
+        bottom: -10px;
+    }
+
+    /* Pencegahan KS */
+    .pncghks {
+        margin-top: 70px;
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 500px;
+    }
+
+    .pencegahpict {
+        margin-left: 35px;
+    }
+
+    .allpict {
+        padding-top: 100px;
+        margin-left: 90px;
+    }
+
+    .allpict2 {
+        padding-top: 50px;
+        margin-left: 100px;
+    }
+
+    .hpncgh {
+        font-weight: 700;
+        font-family: Playfair Display;
+        color: white;
+    }
+
+    .pictpks {
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+        padding-left: 5px;
+        padding-top: 10px;
+        margin-left: 95px;
+    }
+
+    .pictpks2 {
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+        padding-top: 10px;
+        margin-left: -30px;
+    }
+
+    .pictpks3 {
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+        padding-top: 10px;
+        padding-left: 5px;
+        margin-left: -10px;
+    }
+
+    .pictpks3a {
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+        padding-top: 10px;
+        margin-left: -45px;
+    }
+
+    .pictpks4 {
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+        padding-top: 10px;
+        padding-left: 5px;
+        margin-left: -77px;
+    }
+
+    .pictpks4a {
+        background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+        padding-top: 10px;
+        margin-left: -115px;
+    }
+
+    .imgpks {
+        width: 70px;
+    }
+
+    .tks {
+        font-size: x-small;
+        text-align: center;
+        font-family: PJS;
+        font-weight: 700;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #131313;
+    }
+
+    .textfoot {
+        color: white;
+    }
+
+    /* Quiz */
+
+    .imgquiz {
+        height: 150px;
+        margin-left: 280px;
+        margin-top: -175px;
+    }
+
+    .bgquiz {
+        background-color: var(--maroon5);
+        height: 465px;
+        margin-top: 177px;
+    }
+    
+    .imgquiz2 {
+        background-color: white;
+        height: 385px;
+        width: 100%;
+        border-radius: 6px 6px 0px 0px;
+        margin-top: 55px;
+    }
+
+    .pquiz {
+        font-family: PJS;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .hquiz {
+        font-family: PJS;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .mgquiz {
+        margin-left: 65px;
+    }
+
+    .btnquiz {
+        background-color: var(--burgundy);
+        font-size: small;
+        border-radius: 6px;
+        border-color: white;
+        margin-top: 35px;
+        border-width: 0.5px;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin-left: 90px;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .btnquiz2 {
+        background-color: var(--burgundy);
+        font-size: small;
+        border-radius: 6px;
+        border-color: var(--maroon5);
+        margin-top: 35px;
+        border-width: 0.5px;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin-right: 90px;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .btnquiz3 {
+        border-radius: 6px;
+        margin-top: 35px;
+        width: 300px;
+        height: 40px;
+        margin-left: 90px;
+        color: var(--blacky);
+        font-weight: 500;
+    }
+
+    .btnquiz4 {
+        border-radius: 6px;
+        margin-top: 35px;
+        width: 300px;
+        height: 40px;
+        margin-left: 190px;
+        color: var(--blacky);
+        font-weight: 500;
+    }
+
+    .btnquiz:hover {
+        background-color: var(--maroon5);
+    }
+
+    .btnr:hover{
+        background-color: var(--burgundy);
+    }
+
+    .btnquiz2:hover {
+        background-color: var(--maroon5);
+    }
+
+    /* Tentang Kami */
+
+    /* Hero Section */
+
+    .imgttgkmi {
+        background-image: url(assets/ttgkami.png);
+        height: 400px;
+        margin-top: 80px;
+        padding-top: 120px;
+    }
+
+    .httgkmi {
+        color: white;
+        font-family: Playfair Display;
+        font-weight: 600;
+        
+    }
+
+    .bghttgkmi {
+        background-image: url(assets/Rectangle\ 21.png);
+        margin-top: 100px;
+        height: 400px;
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .imgell {
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .himgttg {
+        color: white;
+        font-weight: 600;
+        font-family: PJS;
+    }
+
+    .pimgttg {
+        color: white;
+        font-family: PJS;
+    }
+
+    /* Filosofi */
+    .filosofi {
+        margin-top: 330px;
+    }
+
+    .imgfilo {
+        height: 250px;
+        margin-left: 50px;
+    }
+
+    .mgfilo {
+        margin-top: 45px;
+        margin-right: 70px;
+    }
+
+    .hfilo {
+        color: var(--maroon5);
+        font-weight: 600;
+        font-family: Playfair Display;
+    }
+
+    .pfilo {
+        font-family: PJS;
+    }
+
+    .bgfilo {
+        background-image: url(assets/Rectangle\ 21.png);
+
+    }
+
+    .bgim {
+        background-image: url(assets/Rectangle\ 21.png);
+        height: 250px;
+        margin-top: 50px;
+        padding-top: 60px;
+    }
+
+    .him {
+        color: white;
+        font-weight: 600;
+        font-family: PJS;
+        text-align: center;
+        font-family: Playfair Display;
+    }
+
+    .pim {
+        color: white;
+        font-family: PJS;
+        text-align: justify;
+    }
+
+    /* Color Pallete */
+
+    .padclrplt {
+        padding-top: 50px;
+    }
+
+    .clrplt {
+        font-family: Playfair Display;
+        font-weight: 600px;
+        text-align: center;
+    }
+
+    .imgclrplt {
+        width: 100%;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Font */
+
+    .plyfd {
+        background-color: #D9D9D9;
+        width: 100%;
+        height: 100px;
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    .ply {
+        font-family: Playfair Display;
+        font-weight: 600;
+        color: var(--maroon5);
+    }
+
+    .pply {
+        font-weight: 600;
+        font-family: Playfair Display;
+        font-size: large;
+    }
+
+    .pjs {
+        font-family: PJS;
+        font-weight: 600;
+        color: var(--maroon5);
+    }
+
+    .ppjs {
+        font-weight: 600;
+        font-family: PJS;
+        font-size: large;
+    }
+
+    @media (max-width: 480px){
+        form .half{
+          flex-direction: column;
+        }
+        form .half .item{
+          width: 100%;
+        }
+        form .action{
+          display: flex;
+          flex-direction: column;
+        }
+        form .action input{
+          margin-bottom: 10px;
+          width: 100%;
+        }
+      }
+    

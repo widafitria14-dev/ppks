@@ -1,0 +1,143 @@
+:root {
+    --maroon5: #7D0A0A;
+    --burgundy: #BF3131;
+    --putin: #F1F1F1;
+    --blacky: #000000;
+    --buabu: #E3E5E8;
+}
+
+@font-face {
+    font-family: PJS;
+    src: url(assets/font/PlusJakartaSans-Regular.ttf)
+}
+
+body {
+    font-family: PJS;
+    }
+
+    .logor {
+        width: 45px;
+        margin-left: -725px;
+        margin-bottom: 500px;
+    }
+
+    .logol {
+        width: 45px;
+        margin-left: -750px;
+        margin-bottom: 500px;
+    }
+
+    .mrl {
+        margin-top: -470px;
+        margin-left: 50px;
+    }
+
+    .hrl {
+        font-family: Playfair Display;
+        font-weight: 700;
+    }
+
+    .prl {
+        font-family: PJS;
+        font-weight: 500;
+        color: var(--blacky);
+        margin-left: -350px;
+    }
+
+    .daftar {
+        padding-top: 45px;
+        padding-left: 750px;
+        margin-top: -645px;
+    }
+
+    form {
+        padding-top: 30px;
+        border : 3px solid #fff;
+        width: 400px;
+        position: relative;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+        font-family: PJS;
+    }
+
+    h3 {
+        padding-left: 15px;
+
+    }
+
+    .inpt {
+            font-size: small;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #E3E5E8;
+            box-sizing: border-box;
+            border-radius: 6px;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        button {
+            background-color: #7D0A0A;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background-color: #4D0000;
+        }
+
+        label {
+            float: left;
+        }
+
+        p {
+            text-align: center;
+            color: #A2A4A6;
+        }
+
+        a {
+            color: #A2A4A6;
+        }
+
+        /*Login*/
+        .login {
+            padding-top: 130px;
+            padding-left: 750px;
+            margin-top: -645px;
+        }
+
+        /* Login Quiz */
+        .pqrl {
+        font-family: PJS;
+        font-weight: 500;
+        color: var(--blacky);
+        margin-right: 210px;
+        }
+
+        @media (max-width: 480px){
+            form .half{
+              flex-direction: column;
+            }
+            form .half .item{
+              width: 100%;
+            }
+            form .action{
+              display: flex;
+              flex-direction: column;
+            }
+            form .action input{
+              margin-bottom: 10px;
+              width: 100%;
+            }
+          }
+        
